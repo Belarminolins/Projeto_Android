@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e90ff"
+    android:gravity="center">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtnome"
+        android:hint="Nome"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtemail2"
+        android:hint="E-mail"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsenha2"
+        android:hint="Senha"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btok"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:textColor="#0000ff"/>
+
+
+        <Button
+            android:id="@+id/btvoltar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:textColor="#0000ff"/>
+
+
+    </LinearLayout>
